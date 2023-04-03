@@ -1,10 +1,26 @@
+
 .floating-wpp {
     position: fixed;
-    bottom: 15px;
-    left: 15px;
+    bottom: 13px;
+    left: 13px;
     font-size: 14px;
-    transition: bottom 0.2s;
+    border-radius: 50px;
+    transition: bottom 0.8s;
+    z-index: 999;
+    transition: ease 0.3s;
+    animation: animacionwhatsapp 1.2s infinite;
 }
+
+@keyframes animacionwhatsapp{
+    0%  {
+  
+      box-shadow: 0 0 0 0 #F4A261d9;
+    } 
+  100% {
+    box-shadow: 0 0 0 72px rgba(0, 0, 0, 0);
+  }
+  
+  } 
 
 .floating-wpp .floating-wpp-button {
     position: relative;
@@ -47,15 +63,15 @@
     height: 0px;
     bottom: 0;
     opacity: 0;
-    transition: bottom 0.1s ease-out, opacity 0.2s ease-out;
+    transition: bottom 0.2s ease-out, opacity 0.2s ease-out;
     transform-origin: bottom;
 }
 
 .floating-wpp .floating-wpp-popup.active {
     padding: 0 12px 12px 12px;
-    width: 260px;
+    width: 333px;
     height: auto;
-    bottom: 82px;
+    bottom: 85px;
     opacity: 1;
 }
 
@@ -128,4 +144,286 @@
     font-size: 16px;
 }
 
+  /*media---------------------------------*/
+
+  @media (max-width: 1280px) {
+    .floating-wpp {
+      
+      bottom: 30px;
+       right: auto;
+    }
+    }
   
+  @media (max-width: 1024px) {
+    .floating-wpp {
+      
+      bottom: 30px;
+      right: auto;
+    }
+    }
+    @media (max-width: 1000px) {
+      .floating-wpp {
+       
+        bottom: 30px;
+        right: auto;
+      }
+      }
+    @media (max-width: 912px) {
+      .floating-wpp {
+       
+        bottom: 30px;
+        right: auto;
+      }
+      }
+    @media (max-width: 820px) {
+      .floating-wpp {
+       
+        bottom: 30px;
+        right: auto;
+      }
+      }
+    @media (max-width: 800px) {
+      .floating-wpp {
+       
+        bottom: 30px;
+        right: auto;
+      }
+      }
+  @media (max-width: 768px) {
+    .floating-wpp {
+     
+      bottom: 30px;
+      right: auto;
+    }
+    }
+    @media (max-width: 712px) {
+      .floating-wpp {
+        
+        bottom: 30px;
+        right: auto;
+      }
+      }
+      @media (max-width: 640px) {
+        .floating-wpp {
+          
+          bottom: 30px;
+          right: auto;
+        }
+        }
+    @media (max-width: 600px) {
+      .floating-wpp {
+        
+        bottom: 30px;
+        right: auto;
+      }
+      }
+      @media (max-width: 540px) {
+        .floating-wpp {
+          
+          bottom: 30px;
+          right: auto;
+        }
+        }
+      @media (max-width: 480px) {
+        .floating-wpp {
+          
+          bottom: 30px;
+          right: auto;
+        }
+        }
+    @media (max-width: 425px) {
+      .floating-wpp {
+        
+        bottom: 30px;
+        right: auto;
+      }
+      }
+      @media (max-width: 414px) {
+        .floating-wpp {
+         
+          bottom: 30px;
+          right: auto;
+        }
+        }
+      @media (max-width: 412px) {
+        .floating-wpp {
+         
+          bottom: 30px;
+          right: auto;
+        }
+        }
+        @media (max-width: 393px) {
+          .floating-wpp {
+          
+            bottom: 30px;
+            right: auto;
+          }
+          }
+      @media (max-width: 384px) {
+        .floating-wpp {
+         
+          bottom: 30px;
+          right: auto;
+        }
+        }
+    @media (max-width: 375px) {
+      .floating-wpp {
+        
+        bottom: 30px;
+        right: auto;
+      }
+      }
+  @media (max-width: 360px) {
+    .floating-wpp {
+     
+      bottom: 30px;
+      right: auto;
+    }
+    }
+    @media (max-width: 320px) {
+      .floating-wpp {
+      
+        bottom: 30px;
+        right: auto;
+      }
+      }
+      @media (max-width: 280px) {
+        .floating-wpp {
+        
+          bottom: 30px;
+          right: auto;
+        }
+        }
+        
+          /*media .floating-wpp-popup .active---------------------------------*/
+
+          @media (max-width: 820px) {
+            .floating-wpp .floating-wpp-popup.active {
+            
+                width: 420x;
+                height: auto;
+            }
+            }
+          @media (max-width: 800px) {
+            .floating-wpp .floating-wpp-popup.active {
+            
+                width: 400px;
+                height: auto;
+            }
+            }
+
+        @media (max-width: 768px) {
+            .floating-wpp .floating-wpp-popup.active {
+            
+                width: 468px;
+                height: auto;
+          }
+          }
+
+          
+            
+          @media (max-width: 712px) {
+            .floating-wpp .floating-wpp-popup.active {
+            
+                width: 335px;
+                height: auto;
+                
+             
+            }
+            }
+            @media (max-width: 640px) {
+                .floating-wpp .floating-wpp-popup.active {
+            
+                    width: 390px;
+                    height: auto;
+                    
+              }
+              }
+          @media (max-width: 600px) {
+            .floating-wpp .floating-wpp-popup.active {
+            
+                width: 560px;
+                height: auto;
+            }
+            }
+            @media (max-width: 540px) {
+                .floating-wpp .floating-wpp-popup.active {
+            
+                    width: 490px;
+                    height: auto;
+              }
+              }
+            @media (max-width: 480px) {
+                .floating-wpp .floating-wpp-popup.active {
+            
+                    width: 450px;
+                    height: auto;
+              }
+              }
+
+
+          @media (max-width: 425px) {
+            .floating-wpp .floating-wpp-popup.active {
+            
+                width: 395px;
+                height: auto;
+          }
+            }
+            @media (max-width: 414px) {
+                .floating-wpp .floating-wpp-popup.active {
+            
+                    width: 384px;
+                    height: auto;
+              }
+              }
+            @media (max-width: 412px) {
+                .floating-wpp .floating-wpp-popup.active {
+            
+                    width: 382px;
+                    height: auto;
+              }
+              }
+              @media (max-width: 393px) {
+                .floating-wpp .floating-wpp-popup.active {
+            
+                    width: 363px;
+                    height: auto;
+              }
+                }
+            @media (max-width: 384px) {
+                .floating-wpp .floating-wpp-popup.active {
+            
+                    width: 354px;
+                    height: auto;
+              }
+              }
+          @media (max-width: 375px) {
+            .floating-wpp .floating-wpp-popup.active {
+            
+                width: 345px;
+                height: auto;
+          }
+            }
+        @media (max-width: 360px) {
+            .floating-wpp .floating-wpp-popup.active {
+            
+                width: 330px;
+                height: auto;
+          }
+          }
+
+          @media (max-width: 320px) {
+            .floating-wpp .floating-wpp-popup.active {
+            
+                width: 290px;
+                height: auto;
+            }
+            }
+
+          @media (max-width: 280px) {
+            .floating-wpp .floating-wpp-popup.active {
+            
+                width: 250px;
+                height: auto;
+            }
+            }
